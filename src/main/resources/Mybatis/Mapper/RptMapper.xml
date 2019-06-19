@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sandalen.sandalen.ConfigMapper.RptMapper">
+    <select id="getRptCoutList" resultType="com.sandalen.sandalen.entities.RptCount">
+      select * from rpt_count limit 20,30;
+    </select>
+</mapper>
