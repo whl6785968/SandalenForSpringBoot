@@ -1,0 +1,17 @@
+{
+
+  "analysis": {
+    "analyzer": {
+      "normal_analyzer": {
+        "type": "custom",
+        "tokenizer": "ik_smart"
+      },
+      "pinyin_analyzer": {
+        "type": "pinyin",
+        "filter": [
+          "lowercase"
+        ]
+      }
+    }
+  }
+}

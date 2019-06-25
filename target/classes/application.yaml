@@ -22,8 +22,29 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  redis:
+    host: 192.168.231.216
+  #rabbitmq:
+    #host: 192.168.231.216
+    #username: guest
+    #password: guest
+  elasticsearch:
+   jest:
+      uris: http://192.168.231.216:9202
+  #data:
+    #elasticsearch:
+      #cluster-name: docker-cluster
+      #cluster-nodes: 192.168.231.216:9302
+      #repositories:
+        #enabled: true
+  mail:
+    username: 806403789@qq.com
+    password: kmauojyprwarbbji
+    host: smtp.qq.com
+
+
+
 
 mybatis:
   config-location: classpath:Mybatis/mybatis-config.xml
   mapper-locations: classpath:Mybatis/Mapper/*.xml
-

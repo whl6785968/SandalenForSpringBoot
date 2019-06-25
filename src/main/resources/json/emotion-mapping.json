@@ -1,0 +1,37 @@
+{
+    "emotion": {
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "author": {
+          "type": "text",
+          "analyzer": "normal_analyzer",
+          "search_analyzer": "normal_analyzer",
+          "fields": {
+            "pinyin": {
+              "type": "text",
+              "analyzer": "pinyin_analyzer",
+              "search_analyzer": "pinyin_analyzer"
+            }
+          }
+        },
+        "title": {
+          "type": "text",
+          "analyzer": "normal_analyzer",
+          "search_analyzer": "normal_analyzer",
+          "fields": {
+            "pinyin": {
+              "type": "text",
+              "analyzer": "pinyin_analyzer",
+              "search_analyzer": "pinyin_analyzer"
+            }
+          }
+        },
+        "content": {
+          "type": "text"
+        }
+      }
+    }
+
+}
