@@ -1,7 +1,7 @@
 spring:
   datasource:
     username: root
-    password: whl5291598
+    password: xxxx
     url: jdbc:mysql://192.168.231.1:3306/spark
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
